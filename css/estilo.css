@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 200px;
+    background-color: beige;
+    
+}
+
+header .logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+.search-bar input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+.search-bar button {
+    padding: 6px 12px;
+    background-color: #575757;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.search-bar button:hover {background-color: #777;
+}
+
+nav{
+    height: 10%;
+    background-color: rgb(124, 124, 99);
+}
+ul{
+
+    display:flex;
+   flex-direction: row;
+
+}
+
+li{
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+a{
+    color: #f5f5f5;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 247, 247);
+}
+
+main{
+    height: 2000px;
+    background-color: rgb(184, 180, 180);
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(72, 72, 159);
+    height: 35%;
+    width: 98%;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.carta{
+ display:flex;
+ flex-direction: column;
+ background-color: rgb(182, 180, 180);
+height: 95%;
+width: 32%;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.img_carta{
+    width: 50%;
+    height: 50%;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.parrafo_carta{
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+}
+
+.boton_carta{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(136, 189, 219);
+    color:white;
+    font-size:14px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+footer{
+background-color: rgb(94, 92, 92);
+height: auto;
+}
+
+#footer_a{
+display: block;
+}
